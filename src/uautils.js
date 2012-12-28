@@ -204,6 +204,7 @@ var uautils = uautils || {
 				break;
 			default:
 		}
+		return obj;
 	},
 	/* Match version number from UA string with search string and splitter string.
 	 * @param userAgent {String} navigator.userAgent
